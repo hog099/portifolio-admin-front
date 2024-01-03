@@ -1,0 +1,85 @@
+.aside-container-nav {
+    grid-area: asidenav;
+    /* margin: 2em; */
+    padding: 10px;
+    padding-left: 20px;
+    min-width: 180px;
+    border-top-right-radius: 1.2em;
+    border-bottom-right-radius: 1.2em;
+    background: #f4f7f7;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px;
+    z-index: 9;
+}
+
+.container-logo img {
+    max-height: 50px;
+
+}
+
+
+.aside-nav {
+    margin: 3em 0;
+}
+
+.aside-ul {
+    margin: 0;
+    padding: 0;
+}
+
+.aside-li {
+    list-style: none;
+    margin: 2em 0;
+}
+
+.navlink-container {
+}
+
+
+.navlink-container svg{
+    margin-right: 5px;
+    margin-top: -4px;
+}
+
+.navlink-container a {
+    color: var(--color-slate-primary);
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 15px !important;
+    text-decoration: none;
+}
+
+.navlink-container a:hover {
+    color: #2e7afb !important;
+}
+
+.navlink-container a:hover > svg{
+    color: #2e7afb !important;
+}
+
+
+
+.navlink-container a.active {
+    color: #2e7afb !important;
+}
+
+.navlink-container a.active img {
+    filter: invert(34%) sepia(82%) saturate(2207%) hue-rotate(208deg) brightness(103%) contrast(97%);
+}
+
+.navlink-container:hover img {
+    filter: invert(34%) sepia(82%) saturate(2207%) hue-rotate(208deg) brightness(103%) contrast(97%);
+}
+
+.support-message{
+    max-width: 200px;
+    width: 100%;
+}
+.support-message h3{
+    font-size: 18px;
+}
+.support-message p{
+    font-size: 13px;
+    font-weight: 500;
+}

@@ -1,0 +1,36 @@
+.container {
+    height: 600px;
+    background: var(--color-white);
+}
+
+.img-carrousel {
+    width: 100%;
+    height: 600px;
+}
+
+.loading-desk{
+    display: block;
+}
+.loading-mob{
+    display: none;
+}
+
+
+@media (max-width: 1199px) {
+
+    .container{
+        height: 400px;
+    }
+
+    .img-carrousel {
+        height: 400px;
+    }
+
+    .loading-desk{
+        display: none;
+    }
+    .loading-mob{
+        display: block;
+    }
+    
+}

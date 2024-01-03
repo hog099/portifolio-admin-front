@@ -1,0 +1,47 @@
+.aside-container-details {
+    grid-area: asidedetails;
+    margin: 2em 0.3em;
+}
+
+.avatar-container {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: bold;
+}
+
+.avatar-container svg {
+    margin-left: 5px;
+}
+
+.container-logo img {
+    max-height: 50px;
+}
+
+.details-list {
+    margin: 0;
+    padding: 0;
+}
+
+.details-item {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    /* margin: 2em 0; */
+    font-size: 20px;
+}
+
+.details-item p {
+    font-size: 12px;
+    margin: 5px 0;
+    /* font-weight: normal; */
+}
+
+.span-info {
+    font-weight: initial;
+    /* font-weight: bold; */
+}
