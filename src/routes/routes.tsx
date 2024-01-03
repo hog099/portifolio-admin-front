@@ -2,7 +2,6 @@
 import { Routes, Route } from 'react-router-dom';
 import PATHS from './paths';
 import { SignIn } from '@/screens/SignIn/SignIn';
-import { NotFound } from '@/screens/NotFound/NotFound';
 // import { AuthGuardRoutes } from '@/guards/AuthGuardRoutes';
 // import { dashboardRoutes } from './routesGroup/dashboardRoutes';
 // import { profileRoutes } from './routesGroup/profileRoutes';
@@ -44,7 +43,7 @@ export const RoutesApp = () => {
         );
       })} */}
       {/* <Route path="*" element={handleNotFound} /> */}
-      <Route path="*" element={<NotFound />} />
+      {/* <Route path="*" element={<NotFound />} /> */}
     </Routes>
   );
 };
